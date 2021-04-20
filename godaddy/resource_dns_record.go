@@ -1,13 +1,12 @@
-package main
+package godaddy
 
 import (
 	"fmt"
 	"log"
 	"strconv"
 	"strings"
-
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/n3integration/terraform-godaddy/api"
+	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/kolikons/terraform-provider-godaddy/api"
 )
 
 const (

@@ -1,10 +1,10 @@
-package main
+package godaddy
 
 import (
 	"fmt"
 	"log"
 
-	"github.com/n3integration/terraform-godaddy/api"
+	"github.com/kolikons/terraform-provider-godaddy/api"
 )
 
 // Config provides the provider's configuration
